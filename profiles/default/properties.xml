@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<site>
+ <property name="title">CPS demo</property>
+ <property name="description">Free software / Libre / Open source demonstration portal</property>
+
+ <property name="email_from_address">webmaster@cps-cms.org</property>
+ <property name="email_from_name">CPS demo webmasters</property>
+
+ <!--
+ First language in the available_languages is the portal default language.
+
+ For this setting to be used, one has to put a localizer.xml file, with just
+ the Localizer definition but no other definition, in the profile directory for
+ the Localizer importer to be started.
+ TODO: Suppress this constraint
+ -->
+ <property name="available_languages">en fr es</property>
+
+ <property name=".cps_themes_bindings" type="lines">
+  <element value="index_html:0-0:default+Front"/>
+ </property>
+
+</site>
+
+

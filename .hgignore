@@ -1,0 +1,15 @@
+syntax: glob
+*.class
+*.pyc
+*.orig
+*.rej
+*~
+*.o
+build/*
+dist/*
+tests/*.err
+
+syntax: regexp
+.*\#.*\#$
+
+
