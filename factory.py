@@ -33,6 +33,7 @@ class SiteConfigurator(CPSSiteMetaConfigurator):
                              'extensions': ('CPSRSS:default',
                                             'CPSSubscriptions:default',
                                             'CPSDefault:folder_advanced_display',
+                                            'CPSTramline:minimal',
                                             'CPSTramline:cpsdefault-all',
                                             'CpsDemoPortal:default',
                                             ),
