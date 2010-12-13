@@ -33,6 +33,7 @@ class SiteConfigurator(CPSSiteMetaConfigurator):
                              'extensions': ('CPSRSS:default',
                                             'CPSSubscriptions:default',
                                             'CPSDefault:folder_advanced_display',
+                                            'CPSTramline:cpsdefault-all',
                                             'CpsDemoPortal:default',
                                             ),
                           'optional' : False,
@@ -45,7 +46,7 @@ class SiteConfigurator(CPSSiteMetaConfigurator):
                                           'rpath' : 'MailHost'},
                           }
          }
-     metas_order = ('CPS_COMMUNITY',
+     metas_order = ('CPS_DEMO',
                     )
      form_heading = "Add CPS demo portal"
      post_action = 'addConfiguredCpsDemoPortal'
